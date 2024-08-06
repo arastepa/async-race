@@ -1,0 +1,55 @@
+.winner {
+    margin-top: 20px;
+    color: black;
+    min-height: calc(100vh - 70px);
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  table {
+    margin-top: 100px;
+  }
+  
+  .winner h1 {
+    font-size: 24px;
+  }
+  
+  .winner table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .winner th, .winners td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .winner tbody {
+
+    margin-top: 5px;
+
+  }
+  
+  .winner th, .winner td {
+    background-color:rgb(91, 98, 104);
+    font-weight: bold;
+    text-align: center;
+  }
+  
+
+.carImg {
+  width: 100px;
+  margin: auto; 
+}
+
+tbody td {
+  border: 1px solid #ccc;
+}
+
+.winner th:first-child, .winner th:nth-child(4), .winner th:nth-child(5) {
+  cursor: pointer;
+}

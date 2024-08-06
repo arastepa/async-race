@@ -1,0 +1,99 @@
+html {
+    color: white;
+}
+
+body {
+    display: flex;
+    background-color: black;
+}
+
+.root {
+    min-height: calc(100vh - 20px);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    height: 100%;
+}
+
+.car {
+
+    width: 5rem;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: 25px;
+    margin-left: 8px;
+}
+
+.road {
+
+    border-bottom: 3px dotted white;
+    display: flex;
+    align-items: flex-end;
+}
+.finish {
+
+    position: absolute;
+    right: 5rem;
+
+}
+
+
+.buttons-road button, .btn {
+
+    background-color: #E3ECFB;
+
+}
+
+.buttons button, .btns button {
+    background-color: #E2F7B7;
+}
+
+.start-buttons input{
+
+    cursor: pointer;
+
+}
+
+button, .btn {
+    cursor: pointer !important;
+}
+
+.modal {
+    display: block;
+    background-color: #C90C0C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px;
+
+}
+
+.modal h1{
+    text-align: center;
+}
+
+.hidden {
+
+    display: none;
+
+}
+
+.select, .remove, .prev, .next {
+    margin-top: 15px;
+}
+
+.errorContainer {
+    border: 2px solid #ff0000;
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    background-color: #ffe6e6;
+    color: #ff0000;
+    border-radius: 5px;
+  }
